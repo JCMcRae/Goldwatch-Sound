@@ -1,0 +1,59 @@
+@CHARSET "ISO-8859-1";
+
+@
+type-face {
+	font-family: COUTURE Bold;
+	src: url('fonts/COUTURE-Bold.ttf');
+}
+
+@
+type-face {
+	font-family: NFL Cowboys Throwback Regular;
+	src: url('fonts/Nflcowbt.ttf');
+}
+
+.body {
+	background-color: black;
+	color: white;
+	height: 100%;
+}
+
+.navbar {
+	background-color: black;
+	border: 1px transparent;
+}
+
+.Banner {
+	display: block;
+	margin: auto;
+}
+
+.centerText {
+	text-align: center;
+}
+
+.paragraph {
+	font-family: COUTURE Bold;
+	text-align: center;
+	text-align: justify;
+	margin: auto;
+}
+
+.album {
+	border: 1px solid;
+	border-color: #ffd700;
+}
+
+.block {
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.link {
+	color: #ffd700;
+}
+
+.active {
+	color: #ffd700;
+	background: transparent;
+}
